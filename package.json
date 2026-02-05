@@ -1,0 +1,23 @@
+{
+  "name": "el-zahabi-travel",
+  "version": "1.0.0",
+  "description": "El Zahabi Travel - Modern Travel & Tour Booking Platform",
+  "scripts": {
+    "dev": "concurrently \"cd backend && npm run dev\" \"cd frontend && npm run dev\"",
+    "build": "cd frontend && npm run build && cd ../backend && npm install --production",
+    "start": "npm run build && cd backend && npm start",
+    "setup": "bash setup.sh"
+  },
+  "keywords": [
+    "travel",
+    "booking",
+    "tiket",
+    "hotel",
+    "tourism"
+  ],
+  "author": "",
+  "license": "MIT",
+  "devDependencies": {
+    "concurrently": "^8.2.0"
+  }
+}
