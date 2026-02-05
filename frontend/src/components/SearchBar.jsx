@@ -1,7 +1,9 @@
+'use client';
+
 import { useState } from 'react';
 import { motion } from 'framer-motion';
 import { useSearchStore } from '@/store';
-import { useRouter } from 'next/router';
+import { useRouter } from 'next/navigation';
 
 export default function SearchBar() {
   const router = useRouter();
